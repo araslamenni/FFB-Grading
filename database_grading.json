@@ -1,1 +1,12 @@
-{"todos": ["eat", "sleep", "code"]}
+{
+   "Aras": {
+      "grading": [],
+      "name": "Aras",
+      "password": "password"
+   },
+   "todos": [
+      "eat",
+      "sleep",
+      "code"
+   ]
+}
