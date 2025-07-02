@@ -32,6 +32,24 @@ def register(db):
       db[username] = {'name': username, 'password': password1, 'grading': []}
       save_json('database_grading.json', db)
 
+def main_menu():
+   print("\n================================================")
+   print("MAIN MENU")
+   main_menu = {'add grading', 'all grading', 'edit grading', 'delete grading', 'delete all grading', 'exit program'}
+   for i, m in enumerate(main_menu, start=1):
+      print(f"{i}. {m}")
+   print("================================================\n")
+
+
+def get_user_input():
+   user_input = int(input("select item in main_menu: ")) -1
+   if user_input in [1,2,3,4,5,6]:
+      return user_input
+   else:
+      print("invalid input")
+      
+      
+      
 if __name__ == "__main__":
    db = read_json("database_grading.json") 
    intro()
@@ -42,3 +60,8 @@ if __name__ == "__main__":
       user = register(db)
    else:
       print('wrong input')
+   
+   while True:
+      main_menu()
+      get_user_input()
+      
