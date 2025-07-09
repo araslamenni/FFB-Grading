@@ -1,0 +1,31 @@
+{
+   "Aras": {
+      "grading": [
+         {
+            "block": "001",
+            "division": "1A",
+            "estate": "stp2",
+            "kematangan": [
+               {
+                  "emptyFruit": 0,
+                  "halfRipe": 0,
+                  "longStalk": "2",
+                  "overRipe": 10,
+                  "ripe": 90,
+                  "rotten": 0,
+                  "stamp": "90",
+                  "unRipe": 0
+               }
+            ],
+            "noMobil": "9131"
+         }
+      ],
+      "name": "Aras",
+      "password": "password"
+   },
+   "todos": [
+      "eat",
+      "sleep",
+      "code"
+   ]
+}

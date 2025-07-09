@@ -1,12 +1,103 @@
 {
-   "Aras": {
-      "grading": [],
-      "name": "Aras",
-      "password": "password"
-   },
-   "todos": [
-      "eat",
-      "sleep",
-      "code"
-   ]
+    "Aras": {
+        "grading": [
+            {
+                "block": "001",
+                "date": "2025-07-05 20:46:55",
+                "day": "Saturday",
+                "division": "1A",
+                "estate": "stp3",
+                "kematangan": {
+                    "emptyFruit": 10,
+                    "halfRipe": 0,
+                    "longStalk": "5",
+                    "overRipe": 15,
+                    "ripe": 75,
+                    "rotten": 0,
+                    "stamp": "90",
+                    "unRipe": 0
+                },
+                "noMobil": "8069"
+            },
+            {
+                "block": "118",
+                "date": "2025-07-07 08:26:09",
+                "day": "Monday",
+                "division": "2A",
+                "estate": "STP3",
+                "noMobil": "8587",
+                "ripeness": {
+                    "emptyFruit": 0,
+                    "longStalk": 2,
+                    "overRipe": 2,
+                    "ripe": 98,
+                    "rotten": 0,
+                    "stamp": 90,
+                    "underripe": 0,
+                    "unRipe": 0
+                }
+            },
+            {
+                "date": "2025-07-08 07:44:49",
+                "day": "Tuesday",
+                "estate": "stp2",
+                "division": "2A",
+                "block": "054",
+                "noMobil": "8933",
+                "ripeness": {
+                    "unRipe": 0,
+                    "underripe": 0,
+                    "ripe": 13,
+                    "overRipe": 75,
+                    "emptyFruit": 10,
+                    "rotten": 2,
+                    "longStalk": 5,
+                    "stamp": 91
+                }
+            },
+            {
+                "date": "2025-07-08 07:49:20",
+                "day": "Tuesday",
+                "estate": "stp3",
+                "division": "1B",
+                "block": "021",
+                "noMobil": "8089",
+                "ripeness": {
+                    "unRipe": 1,
+                    "underripe": 2,
+                    "ripe": 83,
+                    "overRipe": 10,
+                    "emptyFruit": 4,
+                    "rotten": 0,
+                    "longStalk": 2,
+                    "stamp": 90
+                }
+            },
+            {
+                "date": "2025-07-08 07:51:29",
+                "day": "Tuesday",
+                "estate": "stp3",
+                "division": "1B",
+                "block": "043",
+                "noMobil": "8053",
+                "ripeness": {
+                    "unRipe": 1,
+                    "underRipe": 2,
+                    "ripe": 85,
+                    "overRipe": 3,
+                    "emptyFruit": 4,
+                    "rotten": 5,
+                    "longStalk": 2,
+                    "stamp": 90
+                }
+            }
+        ],
+        "name": "Aras",
+        "password": "password"
+    },
+    "todos": [
+        "eat",
+        "sleep",
+        "code"
+    ]
 }
